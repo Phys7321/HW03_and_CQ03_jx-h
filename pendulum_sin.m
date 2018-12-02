@@ -1,4 +1,4 @@
-function [t,w] = pendulum(R,theta0,thetad0,grph) 
+function [t,w] = pendulum_sin(R,theta0,thetad0,grph) 
 % Finds the period of a nonlinear pendulum given the length of the pendulum
 % arm and initial conditions. All angles in radians.
 
@@ -31,5 +31,5 @@ end
 %-------------------------------------------
 %
 function rdot = proj(t,r,g,R)
-    rdot = [r(2); -g/R*r(1)];
+    rdot = [r(2); -g/R*sin(r(1))];
 end
