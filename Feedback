@@ -1,1 +1,9 @@
 # Don't forget to do this one!
+12.11
+p1: Looks good
+p2:You hit all the highlights of the exact pendulum
+p3: Don't forget to label the plots that you produce. Also why would omega decrease and then increase for gamma around 1?
+p4:You seem to be calculating the phase angle correctly, just be aware of what the inverse functions are giving back, it's common practice to report angles between +-pi
+p5: Looks good, just be aware that the peak amplitude happens at an omega that is slightly less than the natural frequency in this setup.
+p6:Looks good
+p7: Looks good
